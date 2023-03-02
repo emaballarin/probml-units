@@ -1,0 +1,11 @@
+gpytorch>=1.9.1
+matplotlib>=3.5.3
+numpy>=1.22.4
+pandas>=1.3.5
+pyro-ppl>=1.8.4
+scikit-learn>=1.0.2
+seaborn>=0.11.2
+torch>=1.13.1
+torchvision>=0.14.1
+tqdm>=4.64.1
+tyxe>=0.0.2
