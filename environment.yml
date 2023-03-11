@@ -4,14 +4,7 @@ channels:
   - pytorch
   - pytorch-test
   - nvidia
-  - defaults
   - conda-forge
-  - gpytorch
-  - HuggingFace
-  - fastchan
-  - intel
-  - nlesc
-  - ivanyashchuk
 
 dependencies:
   - python>=3.10
@@ -67,7 +60,6 @@ dependencies:
 
   - cython>=0.29.32
   - matplotlib>=3.5.3
-  - numpy-base>=1.23.3
   - numpy>=1.23.3
   - pandas>=1.4.4
   - scikit-learn>=1.1.3
