@@ -71,11 +71,12 @@ dependencies:
   - ipython
   - ipywidgets
   - jupyter
+  - jupyterlab<2
 
-  - pytorch-cuda=11.7
+  - pytorch-cuda=11.8
   - pytorch-mutex=*.*=cuda
-  - pytorch>=1.13.1
-  - torchvision>=0.14.1
+  - pytorch>=2
+  - torchvision>=0.15
 
   - gpytorch>=1.9
   - linear_operator>=0.1.1
@@ -86,4 +87,4 @@ dependencies:
   - pillow>=9.2
 
   - pip:
-    - tyxe>=0.0.2
+      - tyxe>=0.0.2
