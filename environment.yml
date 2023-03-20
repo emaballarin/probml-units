@@ -1,4 +1,4 @@
-name: pmlunits
+name: pml_units
 
 channels:
   - pytorch
@@ -21,21 +21,6 @@ dependencies:
   - cudnn
   - libcusparse
   - libcusparse-dev
-  - nccl
-
-  - binutils_impl_linux-64
-  - binutils_linux-64
-  - gcc_impl_linux-64
-  - gcc_linux-64
-  - gfortran_impl_linux-64
-  - gfortran_linux-64
-  - gxx_impl_linux-64
-  - gxx_linux-64
-  - ld_impl_linux-64
-  - libgcc-devel_linux-64
-  - libstdcxx-devel_linux-64
-  - llvmlite
-  - sysroot_linux-64
 
   - git>=2.34.1
   - jpeg
@@ -71,7 +56,7 @@ dependencies:
   - ipython
   - ipywidgets
   - jupyter
-  - jupyterlab<2
+  - jupyterlab
 
   - pytorch-cuda=11.8
   - pytorch-mutex=*.*=cuda
