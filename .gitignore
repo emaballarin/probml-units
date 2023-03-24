@@ -276,3 +276,19 @@ cleanup.sh
 __scratch__/
 **/__scratch__/
 **/__scratch__/**
+
+# Mac OS leftovers
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Linux (KDE) leftovers
+.desktop
+.directory
+
+# Windows leftovers
+Desktop.ini
+desktop.ini
